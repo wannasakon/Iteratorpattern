@@ -1,0 +1,10 @@
+{% for data in typesoftrees %}
+<div class="col-sm-4" id="cardd">
+    <h2>{{data.name}}</h2>
+    <h5>{{data.type}}</h5>
+    <div><img src="{{data.img}}" width="320" height="200"></div>
+    <p>Detail</p>
+    <p>{{data.detail}}</p>
+    <br>
+</div>
+{% endfor %}
